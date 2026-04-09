@@ -63,7 +63,7 @@ export function ContatoFormulario() {
           labelColor="#10b981"
         />
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'start' }}>
+        <div className="contato-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'start' }}>
           {/* Form */}
           <motion.form
             initial={{ opacity: 0, x: -24 }}

@@ -127,6 +127,14 @@ html {
 }
 .footer-credit:hover { color: #ffffff; }
 
+/* ── Responsivo mobile ───────────────── */
+@media (max-width: 768px) {
+  .contato-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+}
+
 /* ── Scrollbar ───────────────────────── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
